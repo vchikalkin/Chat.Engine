@@ -1,0 +1,17 @@
+.flow-viewer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+
+  padding: 15px;
+  /* width: 1000px; */
+  /* height: 500px; */
+
+  /* border: 1px solid black; */
+}
+
+.flow-viewer > * {
+  margin: 10px;
+}

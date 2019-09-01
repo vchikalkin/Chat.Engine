@@ -1,0 +1,57 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+}
+
+.editor > * {
+  margin: 10px 0;
+}
+
+.editor > fieldset {
+  font-size: 0.875rem;
+
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 4px;
+  padding: 8px 14px 14px;
+}
+
+.editor > fieldset:hover {
+  border: 1px solid black;
+}
+
+.editor > fieldset:hover > legend {
+  color: black;
+}
+
+.editor fieldset > legend {
+  color: rgb(150, 150, 150);
+}
+
+.editor .editor__add-answer-button-container > div:first-child {
+}
+
+.editor .editor__add-answer-button-container > * {
+  margin: 5px 3px 5px;
+}
+
+.editor .editor__add-answer-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.editor__answer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.editor__answer-row > * {
+  margin: 5px 3px;
+}
+
+.editor__answer-row > .input-text input {
+  /* width: 100%; */
+  width:11.5rem;
+}
